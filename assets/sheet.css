@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-size: 1vw;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.termin {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 100%;
+    color: white;
+}
+.win {
+    background-color: green;
+    background-image: url("win.jpg");
+}
+.draw {
+    background-color: yellow;
+    background-image: url("draw.jpg");
+}
+.loss {
+    background-color: red;
+    background-image: url("loss.jpg");
+}
+.coming {
+    background-color: white;
+    background-image: url("coming.jpg");
+}
+.competition {
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+.result {
+    font-size: 10rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.opponent {
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
