@@ -16,19 +16,19 @@ body {
 }
 .win {
     background-color: green;
-    background-image: url("win.jpg");
+    background-image: url("2021/win.jpg");
 }
 .draw {
     background-color: yellow;
-    background-image: url("draw.jpg");
+    background-image: url("2021/draw.jpg");
 }
 .loss {
     background-color: red;
-    background-image: url("loss.jpg");
+    background-image: url("2021/loss.jpg");
 }
 .coming {
     background-color: white;
-    background-image: url("coming.jpg");
+    background-image: url("2021/coming.jpg");
 }
 .competition {
     font-size: 3em;
